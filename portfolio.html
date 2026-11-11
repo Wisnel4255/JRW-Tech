@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+<html lang="ht">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Dekouvri pwojè ak travay JRW-Tech.">
+
+    <title>Pwojè nou yo | JRW-Tech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+
+                <span>
+                    <strong>JRW-Tech</strong>
+                    <small>Innovation • Technology • Future</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="index.html">Akèy</a></li>
+                <li><a href="services.html">Sèvis</a></li>
+                <li><a href="about.html">Sou nou</a></li>
+                <li><a href="portfolio.html" class="active">Pwojè</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+
+                <li>
+                    <a href="booking.html" class="nav-button">
+                        Rezève yon konsiltasyon
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <span class="hero-badge">
+                    <i class="fas fa-folder-open"></i>
+                    Portfolio JRW-Tech
+                </span>
+
+                <h1>
+                    Lide nou yo,
+                    <span>travay nou yo.</span>
+                </h1>
+
+                <p>
+                    Dekouvri kèk egzanp pwojè dijital,
+                    konsepsyon ak solisyon teknolojik
+                    ki reprezante vizyon JRW-Tech.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn-primary">
+                        Eksplore pwojè yo
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+
+                    <a href="booking.html" class="btn-secondary">
+                        Kòmanse yon pwojè
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="jrwtech-office.png"
+                    alt="Travay teknolojik JRW-Tech"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section class="services-section" id="projects">
+
+        <div class="section-heading">
+
+            <span>TRAVAY NOU</span>
+
+            <h2>Eksplore pwojè nou yo</h2>
+
+            <p>
+                Men kèk egzanp travay ak domèn
+                kote JRW-Tech kapab pote solisyon.
+            </p>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+        <div class="portfolio-filters">
+
+            <button class="filter-btn active" data-filter="all">
+                Tout pwojè
+            </button>
+
+            <button class="filter-btn" data-filter="web">
+                Sit entènèt
+            </button>
+
+            <button class="filter-btn" data-filter="app">
+                Aplikasyon
+            </button>
+
+            <button class="filter-btn" data-filter="design">
+                UI / UX Design
+            </button>
+
+        </div>
+
+
+        <!-- PROJECT GRID -->
+        <div class="portfolio-grid">
+
+
+            <!-- PROJECT 1 -->
+            <article class="portfolio-card" data-category="web">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900"
+                        alt="Egzanp konsepsyon dashboard biznis"
+                    >
+
+                    <span class="project-category">
+                        Sit entènèt
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>Web Development</span>
+
+                    <h3>Business Dashboard</h3>
+
+                    <p>
+                        Yon egzanp entèfas pou jere
+                        aktivite ak done yon biznis.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+            <article class="portfolio-card" data-category="app">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9a?w=900"
+                        alt="Egzanp konsepsyon aplikasyon mobil"
+                    >
+
+                    <span class="project-category">
+                        Aplikasyon
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>Mobile Development</span>
+
+                    <h3>Mobile Application</h3>
+
+                    <p>
+                        Yon egzanp aplikasyon mobil
+                        ak yon eksperyans itilizatè senp.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+            <article class="portfolio-card" data-category="design">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1559028006-448665bd7c7f?w=900"
+                        alt="Egzanp konsepsyon UI UX"
+                    >
+
+                    <span class="project-category">
+                        UI / UX
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>Interface Design</span>
+
+                    <h3>Creative Interface</h3>
+
+                    <p>
+                        Yon egzanp konsepsyon entèfas
+                        modèn ak fasil pou itilize.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+            <article class="portfolio-card" data-category="web">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900"
+                        alt="Egzanp sit entènèt antrepriz"
+                    >
+
+                    <span class="project-category">
+                        Sit entènèt
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>Business Website</span>
+
+                    <h3>Corporate Website</h3>
+
+                    <p>
+                        Yon egzanp prezantasyon dijital
+                        pou yon antrepriz.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 5 -->
+            <article class="portfolio-card" data-category="app">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=900"
+                        alt="Egzanp konsepsyon aplikasyon"
+                    >
+
+                    <span class="project-category">
+                        Aplikasyon
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>App Design</span>
+
+                    <h3>Smart App Concept</h3>
+
+                    <p>
+                        Yon egzanp konsepsyon aplikasyon
+                        pou sèvis dijital.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 6 -->
+            <article class="portfolio-card" data-category="design">
+
+                <div class="portfolio-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=900"
+                        alt="Egzanp konsepsyon entènèt"
+                    >
+
+                    <span class="project-category">
+                        UI / UX
+                    </span>
+
+                </div>
+
+                <div class="portfolio-info">
+
+                    <span>Web Design</span>
+
+                    <h3>Modern Web Concept</h3>
+
+                    <p>
+                        Yon egzanp konsepsyon sit
+                        entènèt ak stil minimalist.
+                    </p>
+
+                    <a href="contact.html">
+                        Diskite sou yon pwojè konsa
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROCESS -->
+    <section class="services-section">
+
+        <div class="section-heading">
+
+            <span>FASON NOU TRAVAY</span>
+
+            <h2>Pwosesis nou pou kreye yon pwojè</h2>
+
+            <p>
+                Nou suiv etap ki ede nou transfòme
+                lide yo an solisyon dijital.
+            </p>
+
+        </div>
+
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+
+                <h3>01. Diskisyon</h3>
+
+                <p>
+                    Nou koute lide ou epi konprann
+                    bezwen pwojè a.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fas fa-pencil-ruler"></i>
+                </div>
+
+                <h3>02. Konsepsyon</h3>
+
+                <p>
+                    Nou prepare estrikti ak konsepsyon
+                    solisyon an.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <h3>03. Devlopman</h3>
+
+                <p>
+                    Nou devlope epi teste
+                    fonksyonalite pwojè a.
+                </p>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+
+                <h3>04. Lansman</h3>
+
+                <p>
+                    Nou prepare solisyon an
+                    pou li disponib pou itilizatè yo.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+        <div class="cta-content">
+
+            <div>
+
+                <h2>Ann ajoute pwojè ou nan Portfolio nou.</h2>
+
+                <p>
+                    Ou gen yon lide? Ann travay ansanm
+                    pou fè l tounen yon reyalite.
+                </p>
+
+            </div>
+
+            <a href="booking.html" class="cta-button">
+                Kòmanse yon pwojè
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-about">
+
+                <a href="index.html" class="footer-logo">
+                    &lt;/&gt; JRW-Tech
+                </a>
+
+                <p>
+                    Inovasyon, teknoloji ak kreyativite
+                    pou yon pi bon avni dijital.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Navigasyon</h3>
+
+                <a href="index.html">Akèy</a>
+                <a href="services.html">Sèvis</a>
+                <a href="about.html">Sou nou</a>
+                <a href="portfolio.html">Pwojè</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Lòt paj</h3>
+
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Kontak</a>
+                <a href="booking.html">Rezèvasyon</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h3>Kontakte nou</h3>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    hello@jrwtech.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span>
+                JRW-Tech. Tout dwa rezève.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!-- PORTFOLIO FILTER -->
+    <script>
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const portfolioCards = document.querySelectorAll(".portfolio-card");
+
+        filterButtons.forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                filterButtons.forEach(btn =>
+                    btn.classList.remove("active")
+                );
+
+                button.classList.add("active");
+
+                const filter = button.dataset.filter;
+
+                portfolioCards.forEach(card => {
+
+                    const category = card.dataset.category;
+
+                    if (filter === "all" || filter === category) {
+                        card.style.display = "block";
+                    } else {
+                        card.style.display = "none";
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+
+</body>
+</html>
